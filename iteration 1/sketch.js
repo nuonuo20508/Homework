@@ -1,10 +1,10 @@
-// 画笔选项、基础尺寸和缩放变量
+// Brush options, base dimensions and scaling variables
 let strokeOption;
 let baseSize;
 let scale;
-let canvas = 800; // 基础画布大小
+let canvas = 800; // Base canvas size
 
-// 音频相关变量
+// Audio-related variables
 let amplitude;        // 音频振幅分析器
 let soundFile;        // 音频/视频文件对象
 let isPlaying = false;    // 是否正在播放
